@@ -759,12 +759,67 @@ h5{
     width: 41.66667vw;
     height: 41.66667vw;
   }
+
+  .container img{
+    display: none;
+  }
+
+
+  .container {
+    width: 90%;
+    height: 200px;
+    background-image: url('C:\Users\Admin\OneDrive\المستندات\kg\kg-project\src\images\mikasa.png'); /* Set the background image */
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: left; 
+    margin-right: auto;
+    margin-left: auto;
+
+  }
+
+
+  .container .center{
+    top: 50%;
+    left: 50%;
+  
+    
+  }
+
+  .center h1{
+    color: white;
+    font-size: 9vw;
+  
+  }
+
+
+  .pic1{
+    font-size: 14px;
+    top: 1%;
+    height: 48.33333vw;
+  }
   
 
 
 
 
   
+}
+
+
+@media (max-width: 473px) {
+  .pic1{
+    font-size: 13px;
+    top: 1%;
+    height: 48.33333vw;
+  }
+}
+
+@media (max-width: 433px) {
+  .pic1{
+    font-size: 12px;
+    top: 1%;
+    height: 48.33333vw;
+  }
 }
 
 

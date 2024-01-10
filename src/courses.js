@@ -15,7 +15,7 @@ function Courses(){
       const handleButtonClick = () => {
         navigate('/programmes');
         window.scrollTo({
-          top: 1000,
+          top: 950,
           left: 0,
           behavior: 'smooth'
         });
@@ -53,7 +53,7 @@ real piece of apparel that fits the human body. are you interested in learning p
             <div className="prediv">
         <img src={c} alt="" className="pica3"/>
         <h1>COMPLETE FASHION DESIGN PROGRAMME</h1>
-        <a href="/complete">
+        <a href="/programmes">
               <button>Enroll here</button>
             </a>
     </div>
@@ -218,7 +218,7 @@ Staystitching: This technique involves stitching along a single fabric layer to 
             <div className="prediv">
         <img src={c} alt="" className="pica3"/>
         <h1>COMPLETE FASHION DESIGN PROGRAMME</h1>
-        <a href="/complete">
+        <a href="/programmes">
               <button>Enroll here</button>
             </a>
     </div>
