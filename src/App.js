@@ -52,6 +52,9 @@ const handleButtonClick = () => {
       behavior: 'smooth' // optional, adds smooth scrolling effect
     })
 }
+
+
+
   return (
     /*
     <div className="App">
@@ -193,7 +196,9 @@ const handleButtonClick = () => {
         */
 <>
         <div className="container">
+          
         <img src={hg} alt='p'></img>
+
         <div className="center">
           <h1>Welcome</h1> 
           <p>To KG school of fashion</p>​
